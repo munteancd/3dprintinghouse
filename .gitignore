@@ -1,0 +1,13 @@
+# PRIVAT — nu se publica: maparea cod->sursa, date, preturi, unelte
+coduri.csv
+modele_vandabile.csv
+modele_vandabile.md
+produse-vandabile.md
+preturi.md
+catalog.html
+site.html
+harvest.py
+build_catalog.py
+build_site.py
+_*.html
+__pycache__/
