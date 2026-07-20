@@ -2,6 +2,7 @@
 <html lang="ro"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>3D Printing House — Printare 3D in Mosnita Veche</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%232563eb'/><text x='50' y='72' font-size='60' text-anchor='middle'>&#128424;&#65039;</text></svg>">
 <style>
 :root{--bg:#f5f6f8;--card:#fff;--ink:#1c2330;--mut:#6b7686;--acc:#16a34a;--acc2:#2563eb}
 *{box-sizing:border-box;margin:0}
@@ -28,6 +29,10 @@ input[type=search]{flex:1;min-width:220px;padding:10px 13px;border:1px solid #d4
 .count{color:var(--mut);font-size:.85rem;margin-top:10px}
 #more{display:block;margin:20px auto 0;padding:11px 26px;border:none;border-radius:9px;background:var(--acc2);color:#fff;font-size:15px;cursor:pointer}
 footer{text-align:center;color:var(--mut);font-size:.8rem;padding:20px}
+.wafab{position:fixed;right:18px;bottom:18px;z-index:50;display:flex;align-items:center;gap:9px;background:#25D366;color:#fff;text-decoration:none;font-weight:600;font-size:.95rem;padding:13px 18px;border-radius:999px;box-shadow:0 4px 14px rgba(0,0,0,.28)}
+.wafab:hover{filter:brightness(1.06)}
+.wafab svg{width:22px;height:22px;flex:none}
+@media (max-width:600px){.wafab span{display:none}.wafab{padding:14px}}
 @media (prefers-color-scheme: dark){
  :root{--bg:#0f141b;--card:#1a2230;--ink:#e7ecf3;--mut:#8b98a9}
  input[type=search],.chip{background:#1a2230;border-color:#2c3648;color:var(--ink)}
@@ -48,6 +53,9 @@ footer{text-align:center;color:var(--mut);font-size:.8rem;padding:20px}
  <div id="grid"></div>
  <button id="more">Mai multe modele</button>
 </div>
+<a class="wafab" href="https://wa.me/40771550321?text=Buna!%20As%20vrea%20sa%20printez%20ceva%203D." target="_blank" rel="noopener" aria-label="Contact WhatsApp">
+<svg viewBox="0 0 32 32" fill="currentColor"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.1.6 4.2 1.6 6L4 29l8.2-1.5c1.2.6 2.5.9 3.8.9 6.6 0 12-5.4 12-12S22.6 3 16 3zm0 21.8c-1.2 0-2.4-.3-3.5-.8l-.6-.3-4.9.9 1-4.7-.3-.6c-.9-1.5-1.4-3.2-1.4-4.9 0-5.4 4.4-9.8 9.8-9.8s9.8 4.4 9.8 9.8-4.5 10.4-9.9 10.4zm5.4-7.3c-.3-.1-1.7-.9-2-1s-.5-.1-.7.1-.8 1-.9 1.2-.3.2-.6.1c-.3-.1-1.2-.5-2.4-1.5-.9-.8-1.5-1.8-1.6-2.1-.2-.3 0-.5.1-.6l.4-.5c.1-.2.2-.3.3-.5s0-.4 0-.5c0-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4s-1 1-1 2.5 1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.7-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.1-.3-.2-.7-.4z"/></svg>
+<span>Scrie-ne pe WhatsApp</span></a>
 <footer>3D Printing House &middot; Mosnita Veche &middot; WhatsApp: +40 771 550 321<br>
 Modelele marcate cu "Design:" sunt creatii ale comunitatii open-source, folosite sub licenta Creative Commons.</footer>
 <script>
